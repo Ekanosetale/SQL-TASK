@@ -52,7 +52,10 @@ For the last question, I **SELECTED FROM** the **base**, salaries that are less 
 2. Find out the top 5 cities with the highest number of employees, then filter the result to show cities with more than 15 employees.
 3. Find out the most used pin code by the employee. In this case, we want to know the pin codes that are used the most.
   
-I got the employees in the table using the **COUNT FUNCTION FROM** the **employee table**, I calculated the number of employees in each city using the **COUNT FUNCTION** and named the new column ‘Size’, then **GROUP BY** ‘city’ and **ORDER BY** ‘Size’ and thereafter **SELECTED** the **TOP** 5 cities.
+I got the employees in the table using the **COUNT FUNCTION FROM** the **employee table**.
+![](TASK3.1.png)
+I calculated the number of employees in each city using the **COUNT FUNCTION** and named the new column ‘Size’, then **GROUP BY** ‘city’ and **ORDER BY** ‘Size’ and thereafter **SELECTED** the **TOP** 5 cities.
+![]()
 For the last question, I **SELECTED** the pincode column from the **employee table** and **COUNTED** the pincode, and named the column **FREQUENCY**, then I **GROUPED BY** pincode and **ORDER BY FREQUENC**Y in descending **(DESC)**  order.
 
 

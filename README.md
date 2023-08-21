@@ -100,13 +100,14 @@ I found the first item each customer purchased from the menu by JOINING the sale
  To get the most purchased product by each customer, I JOINED the sales and menu tables, COUNTED the customer id and named it unit and then I SELECTED customer id and product name filter by same columns and sorted by customer id in ASCENDING (ASC) order.
 I found the first item purchased by the customers after they became a member by JOINING the three tables; sales, menu, and members tables. Then I RANKED the customer id column, ORDERED by join date column and name it FIRST PRODUCT. After which I SELECTED customer id, join date, and product name, and GROUPED BY the same columns.
 #  Visaul Display of the Procedure For Questions 1 to 6
-![]()
+![](SQL1.png)
 I found the item purchased by the customers just because they became members by JOINIG the sales and members tables. I used the WHERE clause to restrict the order date to dates that were less than or equal to 2021-01-09 which is when the last member joined. Then I SELECT customer id, product name, order date and SORTED BY order date.
  I obtained the total item and amount spent by each customer before they became members by JOINING the three tables again and used the WHERE clause to restrict the order date to exclude the first membership date of 2021-01-07. Then I SUMMED UP the price and named it as Total Amount, COUNTED, and SELECTED the customer id. Thereafter, I  FILTERED BY customer id.
 To calculate each customer’s point given the condition, I JOINED the sales and menu tables and GROUP BY product name,  multiplied the prices WHEN the product name is ‘SUSHI’  and WHEN it wasn’t using the CASE FUNCTION and named the column POINTS OBTAINED. Then I SUMMED the POINTS OBTAINED, SELECTED customer id, and GROUPED BY the same column.
 For the last question, I got the points of both customers by JOINING the sales and menu tables, using a CASE statement to restrict the order date to less than or equal to ‘2021-01-07’ which is the earliest membership date, and then multiplicated the price by *20 ELSE multiply the price by *1 which will ensure the un referenced prices maintain their values and name the new column POINTS. I SUMMED UP the points and named them MONTHLY POINTS and filtered them by customer id. 
 #  Visaul Display of the Procedure For Questions 7 to 10
-![]()
+![](SQL2.png)
+ **I use MSSQL**, thanks for reanding. 
 
 
 
